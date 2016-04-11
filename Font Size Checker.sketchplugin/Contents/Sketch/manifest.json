@@ -1,0 +1,39 @@
+{
+  "name": "Font Size Checker",
+  "description": "Font Size Validator for Mobile UI Design",
+  "author": "Nobuhiro Takahashi",
+  "homepage": "http://feb19.jp",
+  "version": "0.1",
+  "identifier": "jp.feb19.sketch.font-size-checker",
+  "commands": [{
+    "name": "Android Mobile",
+    "identifier": "android-mobile",
+    "script": "script.js",
+    "handler": "checkForAndroid"
+  }, {
+    "name": "Android Desktop",
+    "identifier": "android-desktop",
+    "script": "script.js",
+    "handler": "checkForAndroidDesktop"
+  }, {
+    "name": "iOS",
+    "identifier": "ios",
+    "script": "script.js",
+    "handler": "checkForIOS"
+  }, {
+    "name": "Custom",
+    "identifier": "custom",
+    "script": "script.js",
+    "handler": "checkForCustom"
+  }],
+  "menu": {
+    "isRoot": false,
+    "shortcut": "",
+    "items": [
+      "android-mobile",
+      "android-desktop",
+      "ios",
+      "custom"
+    ]
+  }
+}
