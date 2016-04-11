@@ -3,6 +3,8 @@
 This plugin validates your text layer's font-sizes for Android, iOS or your custom params.
 ![screen shot](https://raw.githubusercontent.com/feb19/sketch-font-size-checker/master/screenshot.png)
 
+[The reason I made this](http://feb19.jp/blog/archives/000281.php)
+
 ## Reference
 
 - [Color and Typography - iOS Developer Center](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/ColorImagesText.html#//apple_ref/doc/uid/TP40006556-CH58-SW1)  
